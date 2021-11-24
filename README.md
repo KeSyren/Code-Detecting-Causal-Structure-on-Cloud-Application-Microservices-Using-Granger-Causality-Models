@@ -32,6 +32,6 @@ The cMLP model can be trained with three different penalties: group lasso, group
 Training models with non-convex loss functions and non-smooth penalties requires a specialized optimization strategy, and we use the generalized iterative shrinkage and thresholding algorithm ([GISTA](https://arxiv.org/abs/1303.4434)), which differs from the better known iterative shrinkage and thresholding algorithm (ISTA) only in its use of a line search criterion. Our implementation begins by performing ISTA steps without checking the line search criterion, and switches to a line search when the objective function fails to decrease sufficiently between loss checks.
 
 ## References
-
+- Qing Wang, et. al "Detecting Causal Structure on Cloud Application Microservices Using Granger Causality Models", IEEE CLOUD, 2021.
 - Alex Tank, Ian Covert, Nicholas Foti, Ali Shojaie, Emily Fox. Neural Granger Causality for Nonlinear Time Series. *arXiv preprint arXiv:1802.05842*, 2018.
 - Chunqiu Zeng, Qing Wang, et. al, Online Inference for Time-varying Temporal Dependency Discovery from Time Series. IEEE Big Data, 2016.
